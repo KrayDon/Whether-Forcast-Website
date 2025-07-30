@@ -11,7 +11,7 @@ A friendly, modern weather forecast web app. Enter any city to get the latest we
 - Made with HTML, CSS, and JavaScript (no frameworks)
 
 ## 🚀 Live Demo
-You can deploy this site easily with GitHub Pages or Vercel/Netlify.
+https://kraydon.github.io/Whether-Forcast-Website/
 
 ## 🛠️ How to Run Locally
 1. Clone this repo:
