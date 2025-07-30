@@ -21,9 +21,6 @@ You can deploy this site easily with GitHub Pages or Vercel/Netlify.
 2. Open the `index.html` file in your browser.
 3. Enter your [OpenWeatherMap API key](https://openweathermap.org/api) in `script.js` if you fork this repo.
 
-## 📸 Screenshot
-![Screenshot](screenshot.png)
-
 ## 🙏 Credits
 - Weather data from [OpenWeatherMap](https://openweathermap.org/)
 - Mascot SVG by the project author
