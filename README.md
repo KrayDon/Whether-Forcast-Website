@@ -27,7 +27,7 @@ You can deploy this site easily with GitHub Pages or Vercel/Netlify.
 ## 🙏 Credits
 - Weather data from [OpenWeatherMap](https://openweathermap.org/)
 - Mascot SVG by the project author
-- Made with ❤️ by [Mohit Parihar](https://github.com/mohitparihar)
+- Made with ❤️ by [Mohit Parihar](https://github.com/KrayDon)
 
 ## 📄 License
 MIT
