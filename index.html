@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Forecast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-overlay"></div>
+  <div class="container">
+    <div class="mascot">
+      <!-- Simple SVG mascot: a smiling sun -->
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="24" cy="24" r="14" fill="#FFD93B" stroke="#F4C534" stroke-width="2"/>
+        <ellipse cx="24" cy="24" rx="14" ry="14" fill="#FFD93B"/>
+        <path d="M18 28c1.5 2 6.5 2 8 0" stroke="#F4C534" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="19" cy="22" r="2" fill="#fff"/>
+        <circle cx="29" cy="22" r="2" fill="#fff"/>
+        <circle cx="19" cy="22" r="1" fill="#222"/>
+        <circle cx="29" cy="22" r="1" fill="#222"/>
+      </svg>
+    </div>
+    <h1 class="handwritten">Hey there!</h1>
+    <p class="greeting">Welcome to our friendly weather app. Get the latest weather updates for any city, anytime.</p>
+    <form id="weatherForm">
+      <input type="text" id="cityInput" placeholder="Try 'Paris', 'Tokyo', or your hometown..." required autocomplete="off">
+      <button type="submit">Check Weather</button>
+    </form>
+    <div id="loading" class="spinner hidden"></div>
+    <div id="weatherResult" class="hidden weather-card">
+      <div class="weather-header">
+        <img id="weatherIcon" alt="Weather Icon">
+        <div>
+          <h2 id="cityName"></h2>
+          <div id="dateTime" class="date-time"></div>
+        </div>
+      </div>
+      <p id="description" class="description"></p>
+      <div class="weather-details">
+        <div><strong>Temperature:</strong> <span id="temperature"></span>°C</div>
+        <div><strong>Feels Like:</strong> <span id="feelsLike"></span>°C</div>
+        <div><strong>Min:</strong> <span id="tempMin"></span>°C</div>
+        <div><strong>Max:</strong> <span id="tempMax"></span>°C</div>
+        <div><strong>Humidity:</strong> <span id="humidity"></span>%</div>
+        <div><strong>Wind Speed:</strong> <span id="wind"></span> m/s</div>
+      </div>
+      <div id="fact" class="weather-fact"></div>
+    </div>
+    <div id="error" class="error"></div>
+  </div>
+  <footer>
+    <p>Made with <span style="color:#f66">❤️</span> in India &middot; <a href="https://github.com/KrayDon" target="_blank">Mohit Parihar</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
